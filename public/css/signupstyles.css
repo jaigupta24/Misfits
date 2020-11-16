@@ -1,0 +1,113 @@
+html,
+body {
+  background: #fcfcfa;
+  height: 100%;
+  background-image: url(2951.jpg);
+  background-size: cover;
+  color: white;
+}
+
+body {
+  display: -ms-flexbox;
+  display: block;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+  font-family: 'Inter', sans-serif;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 90%;
+  background: transparent;
+  border-width: thin;
+  margin-bottom: 3px;
+  color: white;
+  border-color: #2F3C83;
+}
+
+input[type="text"]:focus::placeholder{
+  color:transparent;
+}
+
+input[type="email"]:focus::placeholder{
+  color: transparent;
+}
+
+input[type="password"]:focus::placeholder{
+  color:transparent;
+}
+
+
+input[type="text"]::placeholder{
+  color: #ffffff;
+}
+
+input[type="email"]::placeholder{
+  color: #ffffff;
+}
+
+input[type="password"]::placeholder{
+  color: #ffffff;
+}
+
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.top {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.middle{
+  border-radius: 0;
+  margin-bottom: -1px;
+}
+
+.bottom {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.container{
+  margin-bottom: 10%;
+}
+
+.google-signin{
+  margin-bottom:25px;
+}
+
+.misfits-logo{
+  margin-right: 10px;
+  border-radius: 100%;
+}
+
+.signin-nav{
+  margin-top: 5px;
+}
+
+.signup-button{
+  margin-top: 20px;
+  font-size: 80%;
+  border-color: #2F3C83;
+}
+
+#credits{
+  color: white!important;
+}

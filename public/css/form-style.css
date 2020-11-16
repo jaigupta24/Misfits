@@ -1,0 +1,33 @@
+body{
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  color:#fff;
+}
+
+.logo{
+  margin: 4% auto 1%;
+  height:10%;
+  width:10%;
+  border-radius: 100%;
+  display: block;
+}
+
+.logo-para{
+  font-size: 200%;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+.ques-label{
+  margin: 3% 0 3%;
+}
+
+.submit-btn{
+  margin:10px;
+}
+
+.form-group{
+  line-height: 3;
+}
